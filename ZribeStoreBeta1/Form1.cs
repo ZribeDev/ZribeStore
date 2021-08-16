@@ -52,6 +52,7 @@ namespace ZribeStoreBeta1
                     listBox2.Items.Add("7-ZIP");
                     listBox2.Items.Add("VLC MediaPlayer");
                     listBox2.Items.Add("Krita");
+                    listBox2.Items.Add("ZribeStore");
                 }
 
                 if (CA == "malware")
@@ -114,6 +115,13 @@ namespace ZribeStoreBeta1
                     label3.Text = "Release Date: ?/?/2017";
                     label6.Text = "Owner: Enderman - ON MALWAREWATCH / GITHUB";
                 }
+                if (item == "ZribeStore")
+                {
+                    label1.Text = "Name: ZribeStore";
+                    label2.Text = "Description: OpenSource Application Store.";
+                    label3.Text = "Release Date: 16/08/2021";
+                    label6.Text = "Owner: ZribeDev";
+                }
 
 
 
@@ -157,6 +165,11 @@ namespace ZribeStoreBeta1
                 {
                     SetITEM("MalwareWatch");
                 }
+
+                if (listBox2.SelectedItem.ToString() == "ZribeStore")
+                {
+                    SetITEM("ZribeStore");
+                }
             }
             catch
             {
@@ -191,6 +204,10 @@ namespace ZribeStoreBeta1
                 {
                     Process.Start("https://malwarewatch.org/");
                 }
+                if (listBox2.SelectedItem.ToString() == "ZribeStore")
+                {
+                    Process.Start("https://github.com/ZribeDev/ZribeStoreBeta1");
+                }
             }
             catch
             {
@@ -223,6 +240,10 @@ namespace ZribeStoreBeta1
                 if (listBox2.SelectedItem.ToString() == "MalwareWatch")
                 {
                     Process.Start("https://github.com/Endermanch/MalwareDatabase");
+                }
+                if (listBox2.SelectedItem.ToString() == "ZribeStore")
+                {
+                    Process.Start("https://github.com/ZribeDev/ZribeStoreBeta1");
                 }
             }
             catch
