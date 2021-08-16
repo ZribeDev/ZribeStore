@@ -174,8 +174,9 @@ namespace ZribeStoreBeta1
             // 
             // notifyIcon1
             // 
-            this.notifyIcon1.Text = "ZribeStore is running!\r\n\r\nMADE BY ZRIBE!";
+            this.notifyIcon1.Text = "ZribeStore Is Running!\r\n\r\nMADE BY ZRIBE!";
             this.notifyIcon1.Visible = true;
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
             // Form1
             // 
@@ -193,7 +194,7 @@ namespace ZribeStoreBeta1
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form1";
-            this.Text = "ZribeStore - BETA";
+            this.Text = "ZribeStore - BETA 1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

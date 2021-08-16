@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ZribeStoreBeta1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ZribeStore")]
+[assembly: AssemblyDescription("ZribeStore")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ZribeStoreBeta1")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("ZribeTech")]
+[assembly: AssemblyProduct("ZribeStore")]
+[assembly: AssemblyCopyright("Copyright ©  2021 ZribeTech")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
