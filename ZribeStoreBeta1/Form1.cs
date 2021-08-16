@@ -130,7 +130,7 @@ namespace ZribeStoreBeta1
             {
                 // ss
             }
-
+            
 
 
 
@@ -206,7 +206,7 @@ namespace ZribeStoreBeta1
                 }
                 if (listBox2.SelectedItem.ToString() == "ZribeStore")
                 {
-                    Process.Start("https://github.com/ZribeDev/ZribeStoreBeta1");
+                    Process.Start("https://github.com/ZribeDev/ZribeStore/releases");
                 }
             }
             catch
